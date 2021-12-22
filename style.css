@@ -17,6 +17,11 @@
   font-size: 17px;
 }
 
+.header-name h1 a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
@@ -34,8 +39,13 @@
   float: right;
 }
 
-header nav {
+header {
+    justify-content: space-between;
+}
+
+header .nav-links {
     font-size: 50px;
+    float: right;
 }
 
 .nav-links ul {
@@ -62,6 +72,15 @@ body section {
     height: 400px;
 }
 
+.image-container img {
+    border-radius: 50%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+
+
 .work-item {
     background-color: blue;
     height: 300px;
@@ -82,6 +101,22 @@ body section {
 @media screen and (max-width: 575px) {
     .work-item {
         background-color: red;
-        margin: 20px 20px;
+        margin: 20px 0px;
     }
+    
+    .header {
+        border-right: none;
+        border-bottom:  4px solid black;
+        text-align: center;
+        margin-bottom: 8%;
+    }
+
+    .header-name {
+        text-align: center;
+    }
+
+    .header-name h1 a {
+        font-size: 40px;
+    }
+
 }

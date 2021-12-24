@@ -18,3 +18,4 @@ i leardned how to put technologies together to create my portfolio
 
 ![Screenshot of live site](/assets/screenshot.png "Live Url")
 
+## updated with link and pic of project 1

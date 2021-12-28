@@ -85,6 +85,19 @@ body section {
     height: 300px;
 }
 
+.work-item h1 {
+    background-color: white;
+    padding: 5px;
+    width: fit-content;
+    margin-top: 10%;
+}
+
+.work-1 {
+    background-image: url(./assets/project1.jpg); 
+    background-size: cover; 
+    background-position: fixed;
+}
+
 .contact-list {
     display: flex;
     flex-wrap: wrap;

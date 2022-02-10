@@ -97,7 +97,13 @@ body section {
     background-size: cover; 
     background-position: fixed;
 }
-
+.work-2 {
+    background-image: url(./assets/jsquiz.png);
+    background-size: cover; 
+    background-position: fixed;
+    background-repeat: no-repeat;
+    
+}
 .contact-list {
     display: flex;
     flex-wrap: wrap;

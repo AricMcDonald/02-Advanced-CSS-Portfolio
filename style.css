@@ -58,7 +58,7 @@ header .nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+    }
 
 body section {
     margin-top: 10vh;
@@ -109,15 +109,18 @@ body section {
     background-position: fixed;
 }
 .work-2 {
-    background-image: url(./assets/jsquiz.png);
+    background-image: url(./assets/link-up.jpg);
     background-size: cover; 
     background-position: fixed;
     background-repeat: no-repeat;  
+    background-position: center;
+    
 }
-.work-4 {
+.work-3 {
     background-image: url(./assets/stattracker.jpg);
     background-size: cover;
     background-position: fixed;
+    background-position: center;
 }
 .contact-list {
     display: flex;
@@ -152,4 +155,7 @@ body section {
         font-size: 40px;
     }
 
+}
+#dog {
+    border-radius: 50%;
 }
